@@ -31,6 +31,8 @@ body {
   width: 92%;
   border: none;
   padding: 4%;
+  text-align: end;
+  font-size: 25px;
 }
 
 .light {
