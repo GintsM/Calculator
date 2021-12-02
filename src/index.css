@@ -35,7 +35,7 @@ body {
 .input-field {
   background-color: #848692;
   height: 50px;
-  width: -webkit-fill-available;
+  width: 100%;
 }
 
 .light {
