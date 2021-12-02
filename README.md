@@ -1,3 +1,13 @@
+# Calculator
+> This project is built using REACT, and will be Calculator for simple mathematical operations
+will add more description, with building the project.
+
+## Built With
+
+- REACT
+- CSS
+- HTML
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
