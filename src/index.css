@@ -12,9 +12,13 @@ body {
 .btn {
   color: black;
   font-size: 25px;
-  width: 100%;
+  width: 33%;
   height: 60px;
   border-color: bisque;
+}
+
+.wide {
+  width: 67%;
 }
 
 .btn-wrapper {

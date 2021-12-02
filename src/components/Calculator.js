@@ -1,5 +1,6 @@
 import React from 'react';
 import Calc from '../logic/calculate';
+import Button from './Button';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -12,8 +13,8 @@ class Calculator extends React.Component {
   }
 
   render() {
-    const handler = (buttonName) => {
-      const name = buttonName.target.innerText;
+    const handler = (ButtonName) => {
+      const name = ButtonName.target.innerText;
       const { total, next, operation } = Calc(this.state, name);
       this.setState({ total, next, operation });
     };
@@ -35,35 +36,35 @@ class Calculator extends React.Component {
 
     return (
       <div className="wrapper">
-        <input className="input-field" value={display()} type="text" maxLength="0" onChange={() => ''} />
+        <input className="input-field" readOnly value={display()} type="text" maxLength="0" />
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handler}>AC</button>
-          <button className="btn" type="button" onClick={handler}>+/-</button>
-          <button className="btn" type="button" onClick={handler}>%</button>
-          <button className="btn light" type="button" onClick={handler}>÷</button>
+          <Button value="AC" className="btn" click={handler} />
+          <Button value="+/-" className="btn" click={handler} />
+          <Button value="%" className="btn" click={handler} />
+          <Button value="÷" className="btn light" click={handler} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handler}>7</button>
-          <button className="btn" type="button" onClick={handler}>8</button>
-          <button className="btn" type="button" onClick={handler}>9</button>
-          <button className="btn light" type="button" onClick={handler}>x</button>
+          <Button value="7" className="btn" click={handler} />
+          <Button value="8" className="btn" click={handler} />
+          <Button value="9" className="btn" click={handler} />
+          <Button value="x" className="btn light" click={handler} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handler}>4</button>
-          <button className="btn" type="button" onClick={handler}>5</button>
-          <button className="btn" type="button" onClick={handler}>6</button>
-          <button className="btn light" type="button" onClick={handler}>-</button>
-
+          <Button value="4" className="btn" click={handler} />
+          <Button value="5" className="btn" click={handler} />
+          <Button value="6" className="btn" click={handler} />
+          <Button value="-" className="btn light" click={handler} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handler}>1</button>
-          <button className="btn" type="button" onClick={handler}>2</button>
-          <button className="btn" type="button" onClick={handler}>3</button>
-          <button className="btn light" type="button" onClick={handler}>+</button>
+          <Button value="1" className="btn" click={handler} />
+          <Button value="2" className="btn" click={handler} />
+          <Button value="3" className="btn" click={handler} />
+          <Button value="+" className="btn light" click={handler} />
         </div>
         <div className="btn-wrapper">
-          <button className="btn" type="button" onClick={handler}>0</button>
-          <button className="btn light-end" type="button" onClick={handler}>=</button>
+          <Button value="0" className="btn wide" click={handler} />
+          <Button value="." className="btn" click={handler} />
+          <Button value="=" className="btn light" click={handler} />
         </div>
       </div>
     );
