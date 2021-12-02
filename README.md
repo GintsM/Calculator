@@ -8,6 +8,14 @@ will add more description, with building the project.
 - CSS
 - HTML
 
+## 👤 Author1
+  * GitHub: [GintsM](https://github.com/GintsM) 
+  * LinkedIn: [Gints Misins](https://www.linkedin.com/in/gints-misins-756b2321a/)
+
+## 📝 License
+This project is MIT licensed.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
