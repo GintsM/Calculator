@@ -12,6 +12,7 @@ exports[`matches components matches snapshot Calculator 1`] = `
   >
     <input
       className="input-field"
+      data-testid="hello"
       maxLength="0"
       readOnly={true}
       type="text"

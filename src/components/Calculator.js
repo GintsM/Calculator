@@ -32,7 +32,7 @@ function Calculator() {
     <div className="same">
       <h2>Let&apos;s do some math!</h2>
       <div className="wrapper">
-        <input className="input-field" readOnly value={display()} type="text" maxLength="0" />
+        <input className="input-field" data-testid="hello" readOnly value={display()} type="text" maxLength="0" />
         <div className="btn-wrapper">
           <Button value="AC" className="btn" onEvent={handler} />
           <Button value="+/-" className="btn" onEvent={handler} />
