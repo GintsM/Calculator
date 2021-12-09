@@ -35,7 +35,7 @@ describe('matches components', () => {
           <Route path="/calculator" element={<Calculator />} />
           <Route path="/quotes" element={<Quote />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter>,
     ).toJSON();
     expect(navtree).toMatchSnapshot();
   });

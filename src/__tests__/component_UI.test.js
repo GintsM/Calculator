@@ -12,5 +12,5 @@ describe('UI experience', () => {
   test('Input Should show a 0 ', () => {
     render(<Calculator />);
     expect(screen.getByTestId('hello').value).toBe('0');
-  })
+  });
 });
