@@ -12,6 +12,11 @@ will add more description, with building the project.
   * GitHub: [GintsM](https://github.com/GintsM) 
   * LinkedIn: [Gints Misins](https://www.linkedin.com/in/gints-misins-756b2321a/)
 
+## 👤 Author2
+  * GitHub: [aakbarkhan](https://github.com/aakbarkhan) 
+  * LinkedIn: [Akbar khan](https://www.linkedin.com/in/akbar-khan-b57709182/)
+
+
 ## 📝 License
 This project is MIT licensed.
 
